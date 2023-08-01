@@ -23,8 +23,9 @@ module.exports = () => {
         template: "./index.html",
         title: "JATE",
       }),
+      new MiniCssExtractPlugin(),
       new InjectManifest({
-        SwSrc: "./src/src-sw.js",
+        swSrc: "./src-sw.js",
         swDest: "service-worker.js.",
       }),
       new WebpackPwaManifest({
@@ -37,7 +38,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('/src/images/logo.png'),
+            src: path.resolve('./src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('src', 'images'),
           }
