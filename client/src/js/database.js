@@ -37,7 +37,7 @@ export const getDb = async () => {
     console.error('getDb not implemented');
 }
 console.log('Successfully retrieved data from database', result);
-return JSON.stringify(result);
+return result.value;
 }
 
 initdb();
