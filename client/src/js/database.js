@@ -34,10 +34,10 @@ export const getDb = async () => {
   const result = await request;
 
   if (!result) {
-    console.err
+    console.error('getDb not implemented');
 }
 console.log('Successfully retrieved data from database', result);
-return result;
+return JSON.stringify(result);
 }
 
 initdb();
