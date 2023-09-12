@@ -6,7 +6,7 @@ This week's challenge was to edit an already functioning website and turn it int
 
 To install this application, you need webpack and the webpack command line interface (cli). Once those are installed, there are many other plugins you can utilize. These include: HTML webpack plugin, a PWA Manifest, an Inject Manifest, and a CSS extract plugin. You will also need babel to assist with compiling your code. 
 
-Link to site on Heroku: https://pwa-editor-bc47a30d16dc.herokuapp.com/
+[Link to site on Heroku](https://pwa-editor-bc47a30d16dc.herokuapp.com/)
 
 ## Usage
 
